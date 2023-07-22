@@ -1,0 +1,73 @@
+[
+    {
+      "future_destination_name": "Thailand",
+      "future_destination_photo_url": "https://unsplash.com/photos/WLeWJW_WneE",
+      "whyGo_notes":
+      "I've heard legends about the food in thailand and the amazing beaches!",
+      "when_toGo_notes": "December 12-15",
+      "howLong_notes": "4 days",
+      "stay_in_hotel": "Yes",
+      "UserId": 1
+
+    },
+    {
+      "future_destination_name": "Switzerland",
+      "future_destination_photo_url": "https://unsplash.com/photos/n_GhkFeT4QQ",
+      "whyGo_notes":
+      "I want to go and basically drown in fondue and say hi to some mountain goats!",
+      "when_toGo_notes": "September 8-15",
+      "howLong_notes": "7 days",
+      "stay_in_hotel": "No",
+      "UserId": 3
+    },
+    {
+      "future_destination_name": "Jordan",
+      "future_destination_photo_url": "https://unsplash.com/photos/yx7TJle8LhM",
+      "whyGo_notes":
+      "I want to see all the history and bask in the sunlight of the desert!",
+      "when_toGo_notes": "July 21-30",
+      "howLong_notes": "9 days",
+      "stay_in_hotel": "Yes",
+      "UserId": 2
+    },
+    {
+      "future_destination_name": "Amsterdam",
+      "future_destination_photo_url":  "https://unsplash.com/photos/IPtSV340-j4",
+      "whyGo_notes":"I've always wanted to go see the canals and watch the ajax play!",
+      "when_toGo_notes": "June 19-20",
+      "howLong_notes": "2 days",
+      "stay_in_hotel": "Yes",
+      "UserId": 2
+    },
+    {
+      "future_destination_name": "Antarctica",
+      "future_destination_photo_url":  "https://unsplash.com/photos/p8Xp5DWQpVc",
+      "whyGo_notes":
+      "I want to snuggle penguins and freeze my a** off!",
+      "when_toGo_notes": "August 1-15",
+      "howLong_notes": "two weeks",
+      "stay_in_hotel": "No",
+      "UserId": 1
+    },
+    {
+      "future_destination_name": "Nepal",
+      "future_destination_photo_url": "https://unsplash.com/photos/gVDUuJaG_wM",
+      "whyGo_notes":
+      "Go visit all the tea huts on the way to Everest base-camp! I'm going there next spring!",
+      "howLong_notes": "6 days",
+      "when_toGo_notes": "October 15-31",
+      "stay_in_hotel": "No",
+      "UserId": 4
+    },
+    {
+      "future_destination_name": "Maldives",
+      "future_destination_photo_url": "https://unsplash.com/photos/9uL7tKuVAq0",
+      "whyGo_notes":
+      "I'm a scuba diver, so this is my dream spot to live under the water!!",
+      "howLong_notes": "9 days",
+      "when_toGo_notes": "May 1-10",
+      "stay_in_hotel": "Yes",
+      "UserId": 4
+    }
+  ]
+  

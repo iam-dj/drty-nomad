@@ -1,0 +1,52 @@
+[
+    {
+      "destination_name": "Austria",
+      "destination_notes":
+        "Austria was amazing, we drank lots of beer and skied some tall mountains!",
+      "UserId": 1,
+      "photo_url": "https://images.unsplash.com/photo-1683177920180-0175523b0271?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+
+    },
+    {
+      "destination_name": "Belize",
+      "destination_notes":
+        "Belize was incredible! On our first scuba dive of the day we saw a Whale Shark!!!",
+      "UserId": 3,
+      "photo_url": "https://images.unsplash.com/photo-1465220183275-1faa863377e3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80"
+    },
+    {
+      "destination_name": "Canada",
+      "destination_notes":
+        "Canada was phenomenal! We hiked in British Columbia, saw bears, and ate poutine!",
+      "UserId": 2,
+      "photo_url": "https://images.unsplash.com/photo-1511936606692-5e0d73f6b638?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2670&q=80"
+    },
+    {
+      "destination_name": "Egypt",
+      "destination_notes":"The turnup was lit. I got drunk with a camel named steve and we partied all night.",
+      "UserId": 2,
+      "photo_url":  "https://images.unsplash.com/photo-1443397646383-16272048780e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+    },
+    {
+      "destination_name": "Iceland",
+      "destination_notes":
+        "Iceland was the most picture-esque place I've ever been! The weather wasn't great, but it didnt matter! it looks like a different planet!",
+      "UserId": 1,
+      "photo_url":  "https://images.unsplash.com/photo-1443397646383-16272048780e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+    },
+    {
+      "destination_name": "Laos",
+      "destination_notes":
+        "Amazing country-side! I rode my motorcycle all the way though the country, the people are so nice, and the food is amaze-balls!",
+      "UserId": 4,
+      "photo_url": "https://images.unsplash.com/photo-1619089654126-4f6d1df6fb69?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1772&q=80"
+    },
+    {
+      "destination_name": "Portugal",
+      "destination_notes":
+        "I visited the island off the coast of portugal named Madeira and went running in the cloud mountains! absolutely unreal!!",
+      "UserId": 4,
+      "photo_url": "http://placekitten.com/200/300"
+    }
+  ]
+  

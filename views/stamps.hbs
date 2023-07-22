@@ -1,0 +1,35 @@
+<div class="card mb-3" id="drty-card-stamp">
+  <div class="col-md text-center " id="drty-card-photo">
+    <img src={{stamp.photo_url}} id="singleton" class="card-img" alt="avatar" />
+  </div>
+  <div class="text-center" id="drty-card-textbox">
+
+    <h2 style="color: black; padding-top:10px; ">Photo by:
+      {{user.first_name}}
+      {{user.last_name}}
+    </h2>
+    <p>Capturing {{stamp.destination_name}}</p>
+    <p>Summary: {{stamp.destination_notes}} </p>
+    <a id="backarrow" style="text-decoration: none; color:black; padding:8px"
+      href="/users/{{user.id}}"> Go Back
+      <img style="width:5%; filter:sepia(40%) " src="/images/backarrow.png" alt="back arrow">
+    </a>
+    <p style="font-family: Arial, Helvetica, sans-serif !important; font-size:x-large; "><img
+        style="width:10%; font-family: Arial, Helvetica, sans-serif !important;" src="/images/likes.png" alt="like" />
+      {{stamp.StampLikes.length}}</p>
+    <p>
+    </p>
+  </div>
+</div>
+
+
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md text-center">
+
+      <a id="new-back-btn" href="/home"><img src="/images/backbutton.png" alt="back button"></a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,49 @@
+[
+    {
+      "first_name": "Ry",
+      "last_name": "Wood",
+      "user_name": "ryan_wood",
+      "password": "password",
+      "profile_pic":
+        "https://res.cloudinary.com/duaznt4wg/image/upload/v1683407406/mike-evans-pic-for-challenge-2_hm5xcb.jpg",
+      "user_age": "31",
+      "user_home": "washington",
+      "about_me": "I like to code and play pickleball!"
+    },
+    {
+      "first_name": "D",
+      "last_name": "Jules",
+      "user_name": "dj_jules",
+      "password": "password",
+      "profile_pic":
+        "https://res.cloudinary.com/duaznt4wg/image/upload/v1683347049/samples/landscapes/beach-boat.jpg",
+      "user_age": "36",
+      "user_home": "new york",
+      "about_me": "I like to code and design things!"
+    },
+    {
+      "first_name": "Tanya",
+      "last_name": "Silyutina",
+      "user_name": "tanya_silyutina",
+      "password": "password",
+      "profile_pic":
+        "https://images.unsplash.com/photo-1683611851020-7c9b9512f66f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1288&q=80",
+      "user_age": "27",
+      "user_home": "washington",
+      "about_me":
+        "I like to code and am really good at working on client-side problems!"
+    },
+    {
+      "first_name": "Yamini",
+      "last_name": "Vk",
+      "user_name": "yamini_vk",
+      "password": "password",
+      "profile_pic":
+        "https://res.cloudinary.com/duaznt4wg/image/upload/v1683347052/samples/landscapes/nature-mountains.jpg",
+      "user_age": "27",
+      "user_home": "India",
+      "about_me":
+        "I like to code and am really good at working on server side problems!"
+    }
+  ]
+  

@@ -1,0 +1,24 @@
+<div class="hero-image">
+    <div class="logo-container">
+        <img src="/images/Cropped.png" alt="Logo" class="centered-image fit-image" style="width: 50%;">
+        <div class="button-container"></div>
+    </div>
+    <div class="container">
+        <div class="row">
+                {{#each users}}
+                    <div class="col-md-4 col-xl-3">
+                        <div class="card" id="nomads-display-card">
+                            <img src="{{this.profile_pic}}" class="card-img-top"
+                                 alt="{{this.first_name}}'s profile picture">
+                            <div class="card-body text-center" style="font-family: Helvetica Neue, sans-serif">
+                                <h5 class="card-title text-truncate"><a href="/users/{{this.id}}"
+                                                                        style="color: rgb(6, 3, 22); text-decoration: none !important;">{{this.first_name}} {{this.last_name}}</a>
+                                </h5>
+                                <p class="card-text text-truncate">{{this.about_me}}</p>
+                            </div>
+                        </div>
+                    </div>
+                {{/each}}
+        </div>
+    </div>
+</div>

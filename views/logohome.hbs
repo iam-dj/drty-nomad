@@ -1,0 +1,144 @@
+<div class="row justify-content-center align-items-center">
+    <div class="d-flex flex-column">
+        {{#if account_deleted}}
+            <div class="alert alert-danger col-4 align-self-center">Account was successfully deleted.</div>
+        {{/if}}
+        <div id="relative" class="d-flex justify-content-center">
+            <img src="/images/Cropped.png" class="img-fluid" style="max-height: 400px;">
+        </div>
+        <div id="move-buttons" class="d-flex justify-content-center">
+            <button class="btn button-72 text-white" style="margin-right: .5em;" data-bs-toggle="modal"
+                    data-bs-target="#registerModal">New Nomad
+            </button>
+            <button class="btn button-72 text-white" style="margin-right: .5em;" data-bs-toggle="modal"
+                    data-bs-target="#loginModal">Login Nomad
+            </button>
+        </div>
+    </div>
+</div>
+
+<!--Toast for the picture upload on registration-->
+<div id="login-toast" class="toast bg-light" role="alert" aria-live="assertive" aria-atomic="true"
+     style="position: fixed; top: 10px; right: 30px;">
+    <div class="toast-header">
+        <strong class="me-auto">Picture</strong>
+        <smal>Just now</smal>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+        Success! The picture has been uploaded.
+    </div>
+</div>
+
+<!--Toast for not being able to log in-->
+<div id="fail-login-toast" class="toast bg-light" role="alert" aria-live="assertive" aria-atomic="true"
+     style="position: fixed; top: 10px; right: 30px;">
+    <div class="toast-header">
+        <strong class="me-auto">Login Error</strong>
+        <smal>Just now</smal>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+        User with provided credentials not found.
+    </div>
+</div>
+
+<!--Toast for invalid password-->
+<div id="fail-password-len-toast" class="toast bg-light" role="alert" aria-live="assertive" aria-atomic="true"
+     style="position: fixed; top: 10px; right: 30px;">
+    <div class="toast-header">
+        <strong class="me-auto">Password Length</strong>
+        <smal>Just now</smal>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+        Password should contain at least 5 characters.
+    </div>
+</div>
+
+<!-- Register modal -->
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content bg-dark text-light">
+            <div class="modal-header">
+                <h5 class="modal-title" id="registerModal">Register</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form class="signup-form">
+                <div class="modal-body">
+                    <div class="mb-3 form-group required">
+                        <label for="first_name-signup" class="form-label control-label">First Name</label>
+                        <input type="text" class="form-control" id="first_name-signup" placeholder="First Name"
+                               required>
+                    </div>
+                    <div class="mb-3 form-group required">
+                        <label for="last_name-signup" class="form-label control-label">Last Name</label>
+                        <input type="text" class="form-control" id="last_name-signup" placeholder="Last Name" required>
+                    </div>
+                    <div class="mb-3 form-group required">
+                        <label for="username-signup" class="form-label control-label">Username</label>
+                        <input type="text" class="form-control" id="username-signup" placeholder="Username" required>
+                    </div>
+                    <div class="mb-3 form-group required">
+                        <label for="password-signup" class="form-label control-label">Password</label>
+                        <input type="password" class="form-control" id="password-signup" placeholder="Password"
+                               required>
+                    </div>
+                    <div class="mb-3 form-group required">
+                        <label for="user_age-signup" class="form-label control-label">Age</label>
+                        <input type="text" class="form-control" id="user_age-signup" placeholder="Age" required>
+                    </div>
+                    <div class="mb-3 form-group required">
+                        <label for="user_home-signup" class="form-label control-label">Home Country</label>
+                        <input type="text" class="form-control" id="user_home-signup" placeholder="Home Country"
+                               required>
+                    </div>
+                    <div class="mb-3 form-group required">
+                        <label for="about_me-signup" class="form-label control-label">About me <span
+                                style="font-size: xx-small;">(80
+                                chars)</span></label>
+                        <input type="text" class="form-control" id="about_me-signup" placeholder="About Me" required>
+                    </div>
+                </div>
+                <div class="modal-footer form-group required">
+                    <label for="profile-pic-btn" class="form-label control-label">Add Profile Picture</label>
+                    <button type="button" class="btn button-72 text-white" id="profile-pic-btn" style="display: block">Add picture</button>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn button-72 text-white" id="registerBtn">Register</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!--Login modal-->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content bg-dark text-light">
+            <div class="modal-header">
+                <h5 class="modal-title" id="loginModal">Login</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form class="login-form">
+                <div class="modal-body">
+
+                    <div class="mb-3">
+                        <label for="username-login" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="username-login" placeholder="Username">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password-login" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password-login" placeholder="Password">
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn button-72 text-white">Login</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="/js/login.js"></script>

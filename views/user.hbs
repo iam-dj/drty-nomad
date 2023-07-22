@@ -1,0 +1,82 @@
+
+
+
+  <div class="container">
+    <div class="row">
+        <div id="drty-card-header" class="card col-sm-12 display-flex flex-row justify-center">
+            <div class="container d-flex align-items-center" id="drty-card-header-textbox">
+                <div class="row">
+                    <div class="image text-center col-sm-3">
+                        <img src="{{user.profile_pic}}" class="card-img my-prof img-fluid" alt="avatar"
+                             style="height: 300px; object-fit: cover; opacity: 1 !important;">
+                    </div>
+                    <div class="col-sm-9 flex-column mt-2">
+                        <div class="bg-light bg-opacity-75 rounded p-2" style="flex-grow: 1;">
+                            <h4 class="">{{user.first_name}} {{user.last_name}}</h4>
+                            <div class="" style="flex-grow: 1;">
+                                <div>
+                                    <span>From: {{user.user_home}}</span>
+                                </div>
+                                <div>
+                                    <span>Age: {{user.user_age}}</span>
+                                </div>
+                                <div>
+                                    <span>About me: {{user.about_me}}</span>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="col-sm-12 display-flex flex-row justify-center">
+                               <img src="/images/Cropped.png" alt="logo" style="width:30%">
+                              </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <div class="container">
+
+    <div class="row align-items-stretch justify-content-between card-decks" id="make">
+  {{#each stamps}}
+  <div class="col-md-4" style="" id="fix">
+    <div class="card h-100" style="width: 19rem;" id="user-drty-card-stamp">
+      <a href="/stamps/{{this.id}}" style="color: black; " id="user-drty-stamp-link">
+        <img class="card-img-top" src={{this.photo_url}} alt="Card image cap">
+        <div class="card-body">
+      </a>
+          <div style="display: flex; justify-content: center;">
+            <h5 class="card-title">{{this.destination_name}}</h5>
+          </div>
+          <p class="card-text">{{this.destination_notes}}</p>
+        </div>
+      <div style="display: flex; justify-content: center;">
+        <div class="container">
+
+       <div  style="margin-top: 30px;">
+  <button style="font-family: Arial, Helvetica, sans-serif !important; font-size:large"
+    class="btn btn-sm btn-danger stamp-like-btn" data-id="{{this.id}}">
+      <span class="like-counter">{{this.StampLikes.length}}</span> ❤️'s
+  </button>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {{/each}}
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md text-center">
+      <a id="new-back-btn" href="/home"><img src="/images/backbutton.png" alt="back button"></a>
+    </div>
+  </div>
+</div>
+
+
+
+<script src="/js/likes.js"></script>
